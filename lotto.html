@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+
+
+  <SCRIPT LANGUAGE="JavaScript">
+  <!--
+  var a = [
+	{"totSellamnt":0,"returnValue":"success","drwNoDate":"2021-05-29","firstWinamnt":0,"drwtNo6":36,"drwtNo4":28,"firstPrzwnerCo":0,"drwtNo5":29,"bnusNo":34,"firstAccumamnt":0,"drwNo":965,"drwtNo2":13,"drwtNo3":25,"drwtNo1":2}
+	,{"totSellamnt":0,"returnValue":"success","drwNoDate":"2021-05-22","firstWinamnt":0,"drwtNo6":43,"drwtNo4":38,"firstPrzwnerCo":0,"drwtNo5":39,"bnusNo":30,"firstAccumamnt":0,"drwNo":964,"drwtNo2":21,"drwtNo3":36,"drwtNo1":6}
+	,{"totSellamnt":0,"returnValue":"success","drwNoDate":"2021-05-15","firstWinamnt":0,"drwtNo6":42,"drwtNo4":23,"firstPrzwnerCo":0,"drwtNo5":34,"bnusNo":35,"firstAccumamnt":0,"drwNo":963,"drwtNo2":12,"drwtNo3":19,"drwtNo1":6}
+	,{"totSellamnt":0,"returnValue":"success","drwNoDate":"2021-05-08","firstWinamnt":0,"drwtNo6":43,"drwtNo4":31,"firstPrzwnerCo":0,"drwtNo5":34,"bnusNo":40,"firstAccumamnt":0,"drwNo":962,"drwtNo2":18,"drwtNo3":28,"drwtNo1":1}
+	,{"totSellamnt":0,"returnValue":"success","drwNoDate":"2021-05-01","firstWinamnt":0,"drwtNo6":42,"drwtNo4":31,"firstPrzwnerCo":0,"drwtNo5":33,"bnusNo":43,"firstAccumamnt":0,"drwNo":961,"drwtNo2":20,"drwtNo3":29,"drwtNo1":11}
+	,{"totSellamnt":98784879000,"returnValue":"success","drwNoDate":"2021-04-24","firstWinamnt":2401133213,"drwtNo6":45,"drwtNo4":30,"firstPrzwnerCo":10,"drwtNo5":32,"bnusNo":14,"firstAccumamnt":24011332130,"drwNo":960,"drwtNo2":18,"drwtNo3":24,"drwtNo1":2}
+	,{"totSellamnt":97435835000,"returnValue":"success","drwNoDate":"2021-04-17","firstWinamnt":3015312891,"drwtNo6":41,"drwtNo4":24,"firstPrzwnerCo":8,"drwtNo5":40,"bnusNo":35,"firstAccumamnt":24122503128,"drwNo":959,"drwtNo2":14,"drwtNo3":15,"drwtNo1":1}
+	,{"totSellamnt":98635947000,"returnValue":"success","drwNoDate":"2021-04-10","firstWinamnt":1596119675,"drwtNo6":37,"drwtNo4":16,"firstPrzwnerCo":15,"drwtNo5":35,"bnusNo":1,"firstAccumamnt":23941795125,"drwNo":958,"drwtNo2":9,"drwtNo3":10,"drwtNo1":2}
+	,{"totSellamnt":96654698000,"returnValue":"success","drwNoDate":"2021-04-03","firstWinamnt":2126634137,"drwtNo6":40,"drwtNo4":35,"firstPrzwnerCo":11,"drwtNo5":36,"bnusNo":1,"firstAccumamnt":23392975507,"drwNo":957,"drwtNo2":15,"drwtNo3":24,"drwtNo1":4}
+	,{"totSellamnt":97065255000,"returnValue":"success","drwNoDate":"2021-03-27","firstWinamnt":2022982671,"drwtNo6":41,"drwtNo4":21,"firstPrzwnerCo":11,"drwtNo5":25,"bnusNo":40,"firstAccumamnt":22252809381,"drwNo":956,"drwtNo2":11,"drwtNo3":20,"drwtNo1":10}
+	
+
+	];
+	var cnt = 0;
+	var hot1 = "";
+	var hot2 = ""
+	var mid = "";
+	var cold = "";
+	var deepcold = "";
+
+	for(var q = 1 ; q <= 45 ; q ++){
+		var temp = q;
+		cnt = 0;
+		for(var i = 0 ; i < a.length ; i++){
+			
+
+			if(a[i].drwtNo1 == temp) cnt++; 
+
+			if(a[i].drwtNo2 == temp) cnt++; 
+
+			if(a[i].drwtNo3 == temp) cnt++; 
+
+			if(a[i].drwtNo4 == temp) cnt++; 
+
+			if(a[i].drwtNo5 == temp) cnt++; 
+
+			if(a[i].drwtNo6 == temp) cnt++; 
+
+			//if(a[i].bnusNo == temp) cnt++; 
+		}
+
+		if(cnt == 4) hot1 += " " + q;
+		if(cnt == 3) hot2 += " " + q;
+		if(cnt == 2) mid += " " + q;
+		if(cnt == 1) cold += " " + q;
+		if(cnt == 0) deepcold += " " + q;
+		
+	}
+	document.write("핫수</br>");
+	document.write(hot1);
+	document.write("</br>");
+	document.write("따스한수</br>");
+	document.write(hot2);
+	document.write("</br>");
+	document.write("미지근</br>");
+	document.write(mid);
+	document.write("</br>");
+	document.write("맹물</br>");
+	document.write(cold);
+	document.write("</br>");
+	document.write("콜드</br>");
+	document.write(deepcold);
+	document.write("</br>");
+  //-->
+  </SCRIPT>
+ </HEAD>
+
+ <BODY>
+  
+ </BODY>
+</HTML>
